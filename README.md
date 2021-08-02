@@ -42,5 +42,5 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 - The url updates with the currently selected story.
 - The "Visit axios.com" button should link out to [https://www.axios.com](https://www.axios.com).
 - A url with `http://{{page_url}}?id=c13dbda5-893d-46ba-ae6a-87ff8e34c74e` should have the second story selected on page reload.
-- When clicking between shows, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date according to the id.
+- When clicking between stories, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date according to the id.
 - The minimum width of the screen is 320px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
