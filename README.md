@@ -19,7 +19,7 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 ## URL Structure:
 `http://{{page_url}}?id=[12345]`
 
-Excerise
+## Excerise
 1. Fork this repo to begin the excerise and provide a readme to instruct how to run it locally.
 2. In index.html, rebuild the mocks in the Figma design in semantic HTML, CSS and JS.
 3. First make a call to the `stream endpoint` to retrieve an array of the 10 lastest story ids for Axios.com.
@@ -33,7 +33,7 @@ Excerise
 6. The designs represent layouts in a smaller screen and a larger screen. It is not 2 pages. 
 7. Feel free to diverge from the designs and apply your own creativity. The goal is to build a simple UI that allows users to navigate between various stories while displaying the corresponding meta data for each.
 
-Specs
+## Specs
 - There are 10 stories that are returned from the stream endpoint.
 - Load the data using a chosen data fetching library.
 - For each of the 10 stories, use the content endpoint to retreive the stories data.
