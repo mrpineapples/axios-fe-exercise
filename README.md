@@ -19,7 +19,11 @@ You can write a `TODO` doc that explains how you'd complete any tasks you don't 
 2. In index.html, rebuild the mocks in the Figma design in semantic HTML, CSS and JS.
 3. First make a call to the `stream endpoint` to retrieve an array of the 10 lastest story ids for Axios.com.
 4. For each story id, make another call to the `content endpoint` to retrieve the data for each story.
-- The `display name` for the author.
+5. For each slide in the carousel, display the following:
+- The `headline` of the story.
+- The `display name` of the author.
+- The `section` label of the story.
+- The `primary_image` of the story.
 - The `published date` of the story.
 - Link out the cover image and `Go Deeper` using the `permalink` returned by the API.
 
@@ -28,7 +32,7 @@ These are the endpoints you'll need to populate your Carousel:
 ### Stream endpoint
 https://api.axios.com/api/render/stream/content
 
-This returns metadata about 10 stories.
+This returns the UUIDs of about 10 stories.
 
 ### Content endpoint
 https://api.axios.com/api/render/content/c13dbda5-893d-46ba-ae6a-87ff8e34c74e
