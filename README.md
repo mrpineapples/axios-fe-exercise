@@ -6,7 +6,7 @@ Our design team has supplied the following design for a Carousel. Your task is t
 
 https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?node-id=0%3A1
 
-We've set up the skeleton of an application for you in NextJS, but there's still plenty of decisions to make.
+We've set up the skeleton of an application for you in [NextJS](https://nextjs.org) with [Styled Components](https://styled-components.com), but there's still plenty of decisions to make.
 
 ## Before you start
 
@@ -60,6 +60,6 @@ This returns the content and detail of one story, from its UUID.
 
 - Building software is a collaborative process, so if you're feeling adventurous, feel free to diverge from the designs somewhat and apply your own creativity. Let us know about the choices you made, and why.
 
-- The application has jest already set up. Add the amount of test coverage you feel is appropriate.
+- The application has [Jest](https://jestjs.io) already set up. Add the amount of test coverage you feel is appropriate.
 
 - We use TypeScript at Axios. Bonus points if you define types and use them effectively to increase the reliability of your code.
