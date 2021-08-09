@@ -10,15 +10,12 @@ Below is a React/CSS/JS excerise that involves building out a single page app to
 - Add one or more unit tests using Jest or React Testing Library.
 - Bonus: Use TypeScript and define the types for the project.
 
-## Figma Design:
+## Figma Design
 https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?node-id=0%3A1
 
-## Public Endpoints:
+## Public Endpoints
 - https://api.axios.com/api/render/stream/content (Stream endpoint)
 - https://api.axios.com/api/render/content/c13dbda5-893d-46ba-ae6a-87ff8e34c74e (Content endpoint)
-
-## URL Structure:
-`http://{{page_url}}?id=[12345]`
 
 ## Excerise
 1. Fork this repo to begin the excerise and provide a readme to instruct how to run it locally.
@@ -40,7 +37,5 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 - For each of the 10 stories, use the content endpoint to retreive the stories data.
 - When landing on the page initally, the first story should be visible.
 - When clicking through the carousel, the headline, cover image, display name, and published date, and url should update.
-- The url updates with the currently selected story.
 - The `Visit axios.com` button should link out to [https://www.axios.com](https://www.axios.com).
-- When clicking between stories, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date.
 - The minimum width of the screen is 375px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
