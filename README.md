@@ -6,7 +6,7 @@ Our design team has supplied the following design for a Carousel. Your task is t
 
 https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?node-id=0%3A1
 
-We've set up the skeleton of an application for you, but there's still plenty of decisions to make.
+We've set up the skeleton of an application for you in NextJS, but there's still plenty of decisions to make.
 
 ## Before you start
 
