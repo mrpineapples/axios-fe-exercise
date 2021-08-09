@@ -6,7 +6,7 @@ Below is a React/CSS/JS excerise that involves building out a single page app to
 - Write your own CSS using a preprocessor (preferably [Sass](https://sass-lang.com), [styled-components](https://styled-components.com), or [Tailwind](https://tailwindcss.com)).
 - Use React 17 hooks vs classes.
 - Use a data fetching library (ex. [Fetch](https://github.com/matthew-andrews/isomorphic-fetch), [Axios](https://github.com/axios/axios) or [SWR](https://github.com/vercel/swr)).
-- The excerise shouldn't take more than 4 hours. If you don't finish every asepect of it, create a `TODO doc` and explain how you would complete the task.
+- Don't spend than more than 4 hours. If you don't finish every asepect of it, create a `TODO` doc and explain how you would complete the tasks.
 - Add one or more unit tests using Jest or React Testing Library.
 - Bonus: Use TypeScript and define the types for the project.
 
