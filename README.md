@@ -6,6 +6,7 @@ Below is a React/CSS/JS excerise that involves building out a single page app to
 - Write your own CSS using a preprocessor (preferably [Sass](https://sass-lang.com), [styled-components](https://styled-components.com), or [Tailwind](https://tailwindcss.com)).
 - Use React 17 hooks vs classes.
 - Use a data fetching library (ex. [Fetch](https://github.com/matthew-andrews/isomorphic-fetch), [Axios](https://github.com/axios/axios) or [SWR](https://github.com/vercel/swr)).
+- The excerise shouldn't take more than 4 hours. If you don't finish every asepect of it, create a TODO doc and explain how you would complete the task.
 - Add one or more unit tests using Jest or React Testing Library.
 - Bonus: Use TypeScript and define the types for the project.
 
@@ -38,9 +39,8 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 - Load the data using a chosen data fetching library.
 - For each of the 10 stories, use the content endpoint to retreive the stories data.
 - When landing on the page initally, the first story should be visible.
-- When clicking through the carousel, the headline, cover image, display name, and published date should update.
+- When clicking through the carousel, the headline, cover image, display name, and published date, and url should update.
 - The url updates with the currently selected story.
 - The "Visit axios.com" button should link out to [https://www.axios.com](https://www.axios.com).
-- A url with `http://{{page_url}}?id=c13dbda5-893d-46ba-ae6a-87ff8e34c74e` should have the second story selected on page reload.
 - When clicking between stories, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date according to the id.
-- The minimum width of the screen is 320px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
+- The minimum width of the screen is 375px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
