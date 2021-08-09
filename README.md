@@ -30,7 +30,7 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 - The 16x9 cropped `cover image`.
 - The `display name` for the author.
 - The `published date` of the story.
-- Link out the cover image using the `permalink`.
+- Link out the cover image and `Go Deeper` using the `permalink` returned by the API.
 6. The designs represent layouts in a smaller screen and a larger screen. It is not 2 pages. 
 7. Feel free to diverge from the designs and apply your own creativity. The goal is to build a simple UI that allows users to navigate between various stories while displaying the corresponding meta data for each.
 
@@ -41,6 +41,6 @@ https://www.figma.com/file/UpnImtkeDJSr21eFjxAoLN/Exercise---Horizontal-Scroll?n
 - When landing on the page initally, the first story should be visible.
 - When clicking through the carousel, the headline, cover image, display name, and published date, and url should update.
 - The url updates with the currently selected story.
-- The "Visit axios.com" button should link out to [https://www.axios.com](https://www.axios.com).
-- When clicking between stories, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date according to the id.
+- The `Visit axios.com` button should link out to [https://www.axios.com](https://www.axios.com).
+- When clicking between stories, hitting “Back” and “Forward” on the browser will also update the url, cover image, headline, published date.
 - The minimum width of the screen is 375px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
