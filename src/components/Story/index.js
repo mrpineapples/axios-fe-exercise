@@ -21,13 +21,24 @@ export const Story = ({
                 <img className="story-img" src={imageURL} alt={altText} />
             </a>
             <div className="info">
-                {!isMobile && <p className="topic topic--desktop">{topic}</p>}
+                {!isMobile && (
+                    <p
+                        className="topic topic--desktop"
+                        data-testid="topic-desktop"
+                    >
+                        {topic}
+                    </p>
+                )}
                 <p className="headline">{headline}</p>
                 <div className="story-meta">
                     <time className="date" dateTime={publishedDate}>
                         {formattedDate}
                     </time>
-                    {isMobile && <span className="topic">{topic}</span>}
+                    {isMobile && (
+                        <span className="topic" data-testid="topic-mobile">
+                            {topic}
+                        </span>
+                    )}
                     {!isMobile && (
                         <a
                             className="link"

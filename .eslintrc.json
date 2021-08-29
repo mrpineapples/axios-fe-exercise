@@ -76,8 +76,7 @@
             "rules": {
                 "import/no-unresolved": "error",
                 "no-unused-vars": "error",
-                "no-restricted-globals": "error",
-                "import/no-unassigned-import": "error"
+                "no-restricted-globals": "error"
             }
         }
     ]

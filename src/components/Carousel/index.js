@@ -3,11 +3,11 @@ import { CarouselContainer, Wrapper, CarouselSlot } from "./styles";
 import { useWindowSize } from "../../hooks/useWindowSize";
 
 export const Carousel = ({ children }) => {
+    const numItems = children.length;
     const { isMobile } = useWindowSize();
-    const [currentPosition, setCurrentPosition] = useState(0);
+    const [currentPosition, setCurrentPosition] = useState(numItems - 1);
     const [direction, setDirection] = useState("next");
     const [isSliding, setIsSliding] = useState(false);
-    const numItems = children.length;
 
     const slide = (direction, position) => {
         setIsSliding(true);
@@ -40,7 +40,11 @@ export const Carousel = ({ children }) => {
     return (
         <Wrapper>
             {!isMobile && (
-                <button className="prev" onClick={prevSlide}>
+                <button
+                    className="prev"
+                    data-testid="prev-button"
+                    onClick={prevSlide}
+                >
                     &#5176;
                 </button>
             )}
@@ -53,10 +57,12 @@ export const Carousel = ({ children }) => {
                     {children.map((child, index) => {
                         return (
                             <CarouselSlot
+                                data-testid={`slot-${index + 1}`}
                                 key={`slot - ${child.key}`}
                                 numSlides={numItems}
                                 order={getOrder(index)}
                             >
+                                item {index + 1}
                                 {child}
                             </CarouselSlot>
                         );
@@ -64,7 +70,11 @@ export const Carousel = ({ children }) => {
                 </CarouselContainer>
             </div>
             {!isMobile && (
-                <button className="next" onClick={nextSlide}>
+                <button
+                    className="next"
+                    data-testid="next-button"
+                    onClick={nextSlide}
+                >
                     &#5171;
                 </button>
             )}

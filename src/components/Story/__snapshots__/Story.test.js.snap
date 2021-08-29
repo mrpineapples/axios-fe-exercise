@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Story /> Should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: inherit;
+}
+
+.c0 .story-img {
+  width: 100%;
+  height: 135px;
+}
+
+.c0 .headline {
+  font-size: 18px;
+  margin: 16px 0 12px 0;
+}
+
+.c0 .topic--desktop {
+  font-size: 14px;
+  color: #ab7d36;
+  margin: 20px 0 8px 0;
+}
+
+.c0 .story-meta {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #656568;
+  font-size: 12px;
+}
+
+.c0 .story-meta .topic:before {
+  content: " - ";
+}
+
+.c0 .story-meta .link {
+  font-size: 18px;
+  margin-left: auto;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #2257da;
+}
+
+@media (min-width:980px) {
+  .c0 .story-img {
+    height: 205px;
+  }
+
+  .c0 .story-meta {
+    font-size: 14px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="story-container"
+  >
+    <a
+      href="https://www.axios.com/coronavirus-latest-news-quick-highlights-57a186a3-7547-45bf-852a-83019849d8d5.html"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        class="story-img"
+        src="https://images.axios.com/pzV7Tj0m2AhS4XN8XsvWP2ot8Vo=/fit-in/1366x1366/2021/08/27/1630088719253.jpg"
+      />
+    </a>
+    <div
+      class="info"
+    >
+      <p
+        class="topic topic--desktop"
+        data-testid="topic-desktop"
+      >
+        Politics & Policy
+      </p>
+      <p
+        class="headline"
+      >
+        Coronavirus dashboard
+      </p>
+      <div
+        class="story-meta"
+      >
+        <time
+          class="date"
+          datetime="2021-08-29T19:07:12.354000Z"
+        >
+          August 29, 2021
+        </time>
+        <a
+          class="link"
+          data-testid="deep-link"
+          href="https://www.axios.com/coronavirus-latest-news-quick-highlights-57a186a3-7547-45bf-852a-83019849d8d5.html"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Go deeper →
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
