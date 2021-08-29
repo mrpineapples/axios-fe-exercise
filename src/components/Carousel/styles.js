@@ -39,22 +39,15 @@ export const Wrapper = styled.div`
 export const CarouselContainer = styled.div`
     display: flex;
     margin: 0 0 20px 20px;
-    transition: ${({ isSliding }) =>
-        isSliding ? "none" : "transform 1.25s ease"};
-    transform: ${({ isSliding, direction }) => {
-        if (!isSliding) {
-            return "translateX(-240px)"; // slot width + margin
-        } else if (direction === "prev") {
-            return "translateX(-480px)"; // double the above because we're moving two cards
-        }
-    }};
 
     @media (min-width: 980px) {
+        transition: ${({ isSliding }) =>
+            isSliding ? "none" : "transform 1.25s ease"};
         transform: ${({ isSliding, direction }) => {
             if (!isSliding) {
-                return "translateX(-430px)";
+                return "translateX(-430px)"; // slot width + margin
             } else if (direction === "prev") {
-                return "translateX(-860px)";
+                return "translateX(-860px)"; // double the above because we're moving two cards
             }
         }};
     }
