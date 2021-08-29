@@ -10,6 +10,6 @@ export const HomeButtonContainer = styled.a`
     justify-content: center;
     align-items: center;
     padding: 10px 15px;
-    margin: 10px 20px;
+    margin: 20px;
     max-height: 40px;
 `;
