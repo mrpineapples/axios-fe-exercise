@@ -37,6 +37,20 @@ export const Carousel = ({ children }) => {
         slide("prev", currentPosition === 0 ? lastItem : currentPosition - 1);
     };
 
+    const nextKeyDown = (e) => {
+        if (e.shiftKey && e.key === "Tab") {
+            e.preventDefault();
+            document.querySelector("[order='1'] a").focus();
+        }
+    };
+
+    const prevKeyDown = (e) => {
+        if (!e.shiftKey && e.key === "Tab") {
+            e.preventDefault();
+            document.querySelector("button.next").focus();
+        }
+    };
+
     return (
         <Wrapper>
             {!isMobile && (
@@ -44,6 +58,7 @@ export const Carousel = ({ children }) => {
                     className="prev"
                     data-testid="prev-button"
                     onClick={prevSlide}
+                    onKeyDown={prevKeyDown}
                 >
                     &#5176;
                 </button>
@@ -73,6 +88,7 @@ export const Carousel = ({ children }) => {
                     className="next"
                     data-testid="next-button"
                     onClick={nextSlide}
+                    onKeyDown={nextKeyDown}
                 >
                     &#5171;
                 </button>

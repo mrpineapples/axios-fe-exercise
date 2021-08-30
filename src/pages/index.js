@@ -40,8 +40,10 @@ const Index = () => {
                                 published_date,
                                 permalink,
                                 primary_image,
+                                social_image, // fallback in case of no primary
                             } = data;
-                            const { alt_text, base_image_url } = primary_image;
+                            const { alt_text, base_image_url } =
+                                primary_image || social_image || {};
 
                             return (
                                 <Story
