@@ -62,7 +62,6 @@ export const Carousel = ({ children }) => {
                                 numSlides={numItems}
                                 order={getOrder(index)}
                             >
-                                item {index + 1}
                                 {child}
                             </CarouselSlot>
                         );
